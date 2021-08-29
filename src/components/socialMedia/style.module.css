@@ -1,0 +1,8 @@
+.buttonArea {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #dfdfdf;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #fff;
+}

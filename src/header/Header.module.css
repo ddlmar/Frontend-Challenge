@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 48px auto auto;
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  grid-gap: 40px;
+}
+
+.headerMenu {
+  padding-top: 16px;
+  list-style: none;
+  display: grid;
+  font-size: 14px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 23px;
+  grid-column-gap: 32px;
+  justify-content: start;
+  align-items: center;
+}
+
+.headerLogin {
+  padding-top: 16px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 28px;
+  grid-column-gap: 23px;
+  justify-items: end;
+  justify-content: end;
+  align-items: center;
+}
+
+.buttonStyle {
+  color: #fff;
+}

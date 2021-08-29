@@ -1,0 +1,8 @@
+.headerButton {
+  background: #00a870;
+  padding: 12px 21px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}

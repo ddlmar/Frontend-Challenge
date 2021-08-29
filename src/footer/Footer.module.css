@@ -1,0 +1,44 @@
+.footerContainer {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  justify-items: center;
+}
+.h1Style {
+  padding-top: 80px;
+}
+
+.pStyle {
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+.spanStyle {
+  margin-top: 24px;
+}
+
+.socialArea {
+  padding-top: 82px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 206px;
+  align-items: center;
+}
+.serviceArea {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 30px;
+  font-size: 14px;
+  color: #3d3d3d;
+}
+
+.midiaSocial {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 16px;
+}
+.copyRightStyle {
+  font-size: 12px;
+  padding-top: 90px;
+  padding-bottom: 32px;
+  opacity: 0.6;
+}

@@ -3,6 +3,23 @@
   grid-template-rows: repeat(6, auto);
   justify-items: center;
 }
+.footerButton {
+  text-align: start;
+  padding: 10px 25px;
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 21px;
+  background-color: #5e20a4;
+}
+.pStyleButton {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  font-size: 16px;
+}
+.spanStyleButton {
+  font-size: 12px;
+}
 .h1Style {
   padding-top: 80px;
 }
@@ -20,17 +37,21 @@
   padding-top: 82px;
   display: grid;
   grid-template-columns: repeat(3, auto);
-  grid-gap: 206px;
+
   align-items: center;
 }
 .serviceArea {
+  margin-left: 335px;
+  margin-right: 206px;
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 30px;
   font-size: 14px;
   color: #3d3d3d;
 }
-
+.pFooterStyle {
+  cursor: pointer;
+}
 .midiaSocial {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -41,4 +62,58 @@
   padding-top: 90px;
   padding-bottom: 32px;
   opacity: 0.6;
+}
+
+@media screen and (max-width: 420px) {
+  .footerContainer {
+    padding-top: 40px;
+    width: 328px;
+    margin: 0 auto;
+    grid-template-rows: repeat(7, auto);
+    justify-content: center;
+  }
+  .h1Style {
+    padding: 0;
+    margin: 0;
+  }
+  .pStyle {
+    margin: 0 0 24px 0;
+    padding: 0;
+  }
+  .socialArea {
+    padding: 0;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 0;
+    justify-items: center;
+  }
+  .mobileLOGO {
+    margin-top: 52px;
+  }
+  .serviceArea {
+    margin: 36px 0 24px 0;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 17px;
+    grid-row-gap: 32px;
+    justify-items: center;
+  }
+  .midiaSocial {
+    margin-bottom: 40px;
+  }
+  .separationSection {
+    margin: 0 auto;
+    width: 328px;
+    background-color: #dfdfdf;
+  }
+  .copyRightStyle {
+    padding: 24px 0;
+  }
+  .footerButton {
+    width: 304px;
+    grid-gap: 20px;
+  }
+  .pStyleButton {
+    width: 191px;
+  }
 }

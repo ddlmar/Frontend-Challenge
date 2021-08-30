@@ -28,7 +28,7 @@ const Header = () => {
                 </ul>                
             </nav>
             <ul className = {headerStyle.headerLogin}> 
-                    <Button/>
+                    <Button style={headerStyle.headerButtonStyle} label = 'Become a Nanny Share Host'/>
                     <Link className = {headerStyle.buttonStyle} to = ''>
                         <li>Sign In</li>
                     </Link>

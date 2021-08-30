@@ -31,7 +31,36 @@
   justify-content: end;
   align-items: center;
 }
-
+.headerButtonStyle {
+  width: 234px;
+  height: 44px;
+}
 .buttonStyle {
   color: #fff;
+}
+
+@media screen and (max-width: 420px) {
+  .header {
+    grid-template-columns: 48px auto;
+    grid-gap: 46px;
+  }
+  .header nav {
+    display: none;
+  }
+  .headerMenu {
+    display: none;
+  }
+  .buttonStyle {
+    display: none;
+  }
+  .headerLogin {
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+    grid-gap: 0;
+  }
+  .headerButtonStyle {
+    width: auto;
+    height: auto;
+  }
 }

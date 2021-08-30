@@ -1,8 +1,12 @@
 import React from 'react';
 import styles from './style.module.css';
-const Button = () => {
+import classnames from 'classnames';
+const Button = ({pStyle, spanStyle, icon, style, onClick, label, text}) => {
     return (
-        <button className = {styles.headerButton}>Become a Nanny Share Host</button>
+        <button className = {classnames(style, styles.headerButton)} type='button' onClick={onClick}>
+            <img src={icon} alt="" />
+            <p className={pStyle}>{label}<span className={spanStyle}>{text}</span></p>
+            </button>
         
     )
 }

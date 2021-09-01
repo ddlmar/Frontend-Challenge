@@ -1,17 +1,65 @@
 .headerButton {
+  padding: 12px 22px;
   display: grid;
+  align-items: center;
   justify-items: center;
-  background: #00a870;
-
-  border-radius: 4px;
+  font-size: 14px;
   border: none;
+  border-radius: 4px;
   color: #fff;
+  background: #00a870;
   cursor: pointer;
 }
 
+.sendButton,
+.loadingButton {
+  width: 96px;
+  height: 48px;
+  font-size: 14px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+}
+
+.sendButton {
+  background: #00a870;
+  cursor: pointer;
+}
+
+.loadingButton {
+  background: #a9a9a9;
+  cursor: inherit;
+}
+
+.iconButton {
+  padding: 13px 37px 17px 25px;
+  font-size: 16px;
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(2, auto);
+  justify-items: start;
+  column-gap: 21px;
+  border: 0;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #5e20a4;
+  cursor: pointer;
+}
+
+.buttonIcon {
+  grid-area: 1/1/-1/2;
+}
+
+.buttonSubLabel {
+  font-size: 12px;
+}
+
 @media screen and (max-width: 420px) {
-  .headerButton {
-    padding: 12px 21px;
-    width: 234px;
+  .sendButton,
+  .loadingButton {
+    width: 100%;
+    padding: 14px 0;
   }
 }

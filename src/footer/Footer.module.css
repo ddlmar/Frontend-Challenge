@@ -3,23 +3,7 @@
   grid-template-rows: repeat(6, auto);
   justify-items: center;
 }
-.footerButton {
-  text-align: start;
-  padding: 10px 25px;
-  width: auto;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 21px;
-  background-color: #5e20a4;
-}
-.pStyleButton {
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-  font-size: 16px;
-}
-.spanStyleButton {
-  font-size: 12px;
-}
+
 .h1Style {
   padding-top: 80px;
 }
@@ -37,7 +21,6 @@
   padding-top: 82px;
   display: grid;
   grid-template-columns: repeat(3, auto);
-
   align-items: center;
 }
 .serviceArea {
@@ -108,12 +91,5 @@
   }
   .copyRightStyle {
     padding: 24px 0;
-  }
-  .footerButton {
-    width: 304px;
-    grid-gap: 20px;
-  }
-  .pStyleButton {
-    width: 191px;
   }
 }

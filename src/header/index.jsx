@@ -1,9 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
-
 import LOGO from '../assets/logo.svg'
 import headerStyle from './Header.module.css';
-
 import Button from '../components/button';
 
 
@@ -27,12 +25,12 @@ const Header = () => {
                     </Link>
                 </ul>                
             </nav>
-            <ul className = {headerStyle.headerLogin}> 
-                    <Button style={headerStyle.headerButtonStyle} label = 'Become a Nanny Share Host'/>
+            <div className = {headerStyle.headerLogin}> 
+                    <Button typeButton="GREEN" label = 'Become a Nanny Share Host'/>
                     <Link className = {headerStyle.buttonStyle} to = ''>
                         <li>Sign In</li>
                     </Link>
-                </ul>
+                </div>
             </BrowserRouter>
         </header>
      );

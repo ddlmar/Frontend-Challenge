@@ -23,3 +23,9 @@ Open vsCode, open the terminal and type npm start
 
 ### `🛠 Technogies`
 
+- [React] 
+- [ReactHokks] 
+- [Html] 
+- [Css] 
+- [Javascript] 
+- [NPM]

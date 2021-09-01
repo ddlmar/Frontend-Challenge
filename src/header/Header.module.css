@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 48px auto auto;
   position: absolute;
+  align-items: center;
   padding-left: 20px;
   padding-right: 20px;
   grid-gap: 40px;
@@ -25,22 +26,19 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: 28px;
   grid-column-gap: 23px;
   justify-items: end;
   justify-content: end;
   align-items: center;
 }
-.headerButtonStyle {
-  width: 234px;
-  height: 44px;
-}
+
 .buttonStyle {
   color: #fff;
 }
 
 @media screen and (max-width: 420px) {
   .header {
+    padding: 0 16px;
     grid-template-columns: 48px auto;
     grid-gap: 46px;
   }
@@ -58,9 +56,5 @@
     align-content: center;
     justify-content: center;
     grid-gap: 0;
-  }
-  .headerButtonStyle {
-    width: auto;
-    height: auto;
   }
 }

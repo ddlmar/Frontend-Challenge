@@ -4,10 +4,7 @@
   grid-gap: 12px;
   font-size: 14px;
 }
-.formButton {
-  width: 96px;
-  height: 48px;
-}
+
 .inputStyle {
   width: 232px;
   height: 48px;
@@ -16,17 +13,11 @@
   border-radius: 4px;
 }
 
-.buttonStyle {
-  width: 48px;
-  height: 96px;
-}
-
 .requestMessage {
   text-transform: uppercase;
   margin-top: 12px;
   font-size: 10px;
   font-weight: bold;
-
   display: grid;
   grid-template-columns: auto;
   justify-items: center;
@@ -52,9 +43,5 @@
   }
   .inputStyle {
     width: 328px;
-  }
-  .formButton {
-    width: 328px;
-    height: auto;
   }
 }

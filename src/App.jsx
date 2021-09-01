@@ -1,3 +1,4 @@
+import React from 'react';
 import classnames from 'classnames';
 import Header from './header/index';
 import { BrowserRouter} from 'react-router-dom';
@@ -10,8 +11,10 @@ import NannyHistoric from './assets/nanny_available.png';
 import NewsImg from './assets/news_incoming.png';
 import Footer from './footer/index';
 import Form from './components/form/index';
-
+import { Storage } from './context/formContext';
 const App = () => {
+
+ 
   return (
       <div >
         <Header/>

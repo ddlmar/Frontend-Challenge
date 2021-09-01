@@ -17,7 +17,7 @@ function Footer() {
             <p className = {classnames(styles.pStyle , AppStyle.operationP)}>Takes less than 5 minutes to get started</p>
             <div>
             </div>
-                <Button pStyle={styles.pStyleButton} spanStyle={styles.spanStyleButton} icon={ICON} style={styles.footerButton} label='Create Your Nanny Share' text='Takes less than 5 minutes'/>
+                <Button typeButton='PURPLE' label='Create Your Nanny Share' subLabel='Takes less than 5 minutes'/>
             <span className = {classnames(styles.spanStyle , AppStyle.linkStyle)}>Or browse local nanny-shares</span>
             <div className = {styles.socialArea}>
                 <img className={styles.mobileLOGO} src={LOGO} alt="" />

@@ -16,13 +16,6 @@
 
 <h3 align='center'> 🚧 Under Construction 🚧</h3>
 
-### Features
-
--[x] Error Handling -[x] Loading States -[x] API Calls
-
-### prerequisites
-
-antes de começar, é necessario ter instalado vsCode e react
 
 ### `How to Run`
 
@@ -30,4 +23,3 @@ Open vsCode, open the terminal and type npm start
 
 ### `🛠 Technogies`
 
-- [React] -[ReactHokks] -[Html] -[Css] -[Javascript] -[NPM]

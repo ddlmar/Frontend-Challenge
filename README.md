@@ -1,33 +1,45 @@
 <h1 align='center'>Jugle Devs - React Challenge #001</h1>
 
-<p align='start'><strong>Challenge Goal:</strong>The purpose of this challenge is to give a general idea of how React works and how you can use it to create simple reactive applications. You’ll be implementing a simplified version of Hapu’s ‘Become a Nanny Share Host’ view. The concepts that you’re gonna apply are:</p>
-<ul>
-    <li>JSX;</li>
-    <li>Components, props and state;</li>
-    <li>Lifecycle Methods;</li>
-    <li>Responsive design with CSS media-queries;</li>
-    <li>API calls;</li>
-    <li>Error handling;</li>
-    <li>Loading states;</li>
-    <li>SEO & accessibility;</li>
-    <li>A/B tests;</li>
-    <li>Production builds.</li>
-</ul>
+<p align='center'>This project was made for a selective proccess in the Jungle Devs Company</p>
 
-<h3 align='center'> 🚧 Under Construction 🚧</h3>
+## How to Build
 
-### Features
+```bash
+# Clone repository
+git clone: https://github.com/ddlmar/Frontend-Challenge.git
 
--[x] Error Handling -[x] Loading States -[x] API Calls
+# Open the repository on vsCode
 
-### prerequisites
+# Install the dependencies
+npm install
 
-antes de começar, é necessario ter instalado vsCode e react
+# Start Build
+npm run build
+```
 
-### `How to Run`
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Open vsCode, open the terminal and type npm start
+## How to Run
+
+```bash
+# Clone repository
+git clone: https://github.com/ddlmar/Frontend-Challenge.git
+
+# Open the repository on vsCode
+
+# Install the dependencies
+npm install
+
+# Start the project
+npm start
+```
 
 ### `🛠 Technogies`
 
-- [React] -[ReactHokks] -[Html] -[Css] -[Javascript] -[NPM]
+- [React]
+- [ReactHokks]
+- [Html]
+- [Css]
+- [Javascript]
+- [NPM]

@@ -28,7 +28,7 @@ const Form = () => {
             <form className = {style.formStyle}>
                 <input className={style.inputStyle} type="name"  placeholder='Your Name' onChange={handleName} />
                 <input className={style.inputStyle} type="email"  placeholder='Your Email' onChange={handleEmail} />
-                <Button typeButton="SEND" label='Send' onClick={handleClick} isLoading={loading}/>
+                <Button alt='submit button' typeButton="SEND" label='Send' onClick={handleClick} isLoading={loading}/>
                             
             </form>
             {message && <span className={style.requestMessage}>{message}</span>}

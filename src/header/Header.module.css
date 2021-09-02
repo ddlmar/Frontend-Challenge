@@ -8,7 +8,9 @@
   padding-right: 20px;
   grid-gap: 40px;
 }
-
+.hiddenH1 {
+  display: none;
+}
 .headerMenu {
   padding-top: 16px;
   list-style: none;

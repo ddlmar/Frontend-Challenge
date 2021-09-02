@@ -1,4 +1,4 @@
-<h1 align='center'>Jugle Devs - React Challenge #001</h1>
+<h1 align='center'>Jungle Devs - React Challenge #001</h1>
 
 <p align='center'>This project was made for a selective proccess in the Jungle Devs Company</p>
 
@@ -38,7 +38,7 @@ npm start
 ### `🛠 Technogies`
 
 - [React]
-- [ReactHokks]
+- [ReactHooks]
 - [Html]
 - [Css]
 - [Javascript]

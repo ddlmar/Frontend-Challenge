@@ -2,9 +2,9 @@ import React from 'react';
 import style from './style.module.css';
 
 
-function SocialMedia({midiaLogo}) {
+function SocialMedia({midiaLogo, alt}) {
     return (
-        <button className = {style.buttonArea}> 
+        <button alt={alt} className = {style.buttonArea}> 
             <img src={midiaLogo} alt="" />
         </button>
     )

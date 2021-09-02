@@ -12,7 +12,7 @@ export const Storage = ({children}) => {
         setLoading(true);     
         try {
            const data = await postNewsLetter(credentials);
-           console.log('carregando');
+           console.log('loading');
                 if (data.detail) {
                     setMessage('Success');
                     setError(null);
@@ -26,7 +26,7 @@ export const Storage = ({children}) => {
                     setError(data.name[0]);
                     setMessage(null);
                 }
-            console.log('resposta');
+            console.log('reply');
         }catch(err){
             console.log(err);
             return 'something is wrong';

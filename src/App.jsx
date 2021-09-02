@@ -14,7 +14,7 @@ import Footer from './footer/index';
 import Form from './components/form/index';
 
 const App = () => {
-  // eu decidi usar useEffect aqui para toda vida que atualizar a pagina, refazer o sorteio das variantes.
+  // I decided to use useEffect here for every time I update this page, redo the variant draw.
   React.useEffect(() => {
     experimentDebugger.enable();
     emitter.defineVariants('heroSection', ['joinLocal', 'priceLocal'], [50, 50]);

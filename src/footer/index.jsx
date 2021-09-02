@@ -8,7 +8,7 @@ import ButtonSocial from '../components/socialMedia/index';
 import FACEBOOK_LOGO from '../assets/facebook.svg';
 import INSTAGRAM_LOGO from '../assets/instagram.svg';
 import TWITTER_LOGO from '../assets/twitter.svg';
-import ICON from '../assets/diary.svg';
+
 
 function Footer() {
     return (
@@ -17,7 +17,7 @@ function Footer() {
             <p className = {classnames(styles.pStyle , AppStyle.operationP)}>Takes less than 5 minutes to get started</p>
             <div>
             </div>
-                <Button typeButton='PURPLE' label='Create Your Nanny Share' subLabel='Takes less than 5 minutes'/>
+                <Button alt='Create your nanny share' typeButton='PURPLE' label='Create Your Nanny Share' subLabel='Takes less than 5 minutes'/>
             <span className = {classnames(styles.spanStyle , AppStyle.linkStyle)}>Or browse local nanny-shares</span>
             <div className = {styles.socialArea}>
                 <img className={styles.mobileLOGO} src={LOGO} alt="" />

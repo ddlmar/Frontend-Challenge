@@ -8,6 +8,7 @@ import Button from '../components/button';
 const Header = () => {
     return ( 
         <header className = {headerStyle.header}>
+            <h1 className={headerStyle.hiddenH1}>Hapu's header</h1>
             <BrowserRouter>
                 <Link to = ''>
                     <img src={LOGO} alt="hapu's logo" />
@@ -18,15 +19,15 @@ const Header = () => {
                         <li>Create Your Nanny Share</li>
                     </Link>
                     <Link className = {headerStyle.buttonStyle} to = ''>
-                    <li>Browse Shares</li>
+                        <li>Browse Shares</li>
                     </Link>
                     <Link className = {headerStyle.buttonStyle} to = ''>
-                    <li>Our Story</li>
+                        <li>Our Story</li>
                     </Link>
                 </ul>                
             </nav>
             <div className = {headerStyle.headerLogin}> 
-                    <Button typeButton="GREEN" label = 'Become a Nanny Share Host'/>
+                    <Button alt='register and hire a nanny' typeButton="GREEN" label = 'Become a Nanny Share Host'/>
                     <Link className = {headerStyle.buttonStyle} to = ''>
                         <li>Sign In</li>
                     </Link>

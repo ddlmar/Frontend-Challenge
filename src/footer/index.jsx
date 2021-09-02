@@ -1,14 +1,13 @@
 import React from 'react';
+import classnames from 'classnames';
 import AppStyle from '../App.module.css';
 import styles from './Footer.module.css';
 import Button from '../components/button/index';
-import classnames from 'classnames';
 import LOGO from '../assets/logo_footer.svg';
 import ButtonSocial from '../components/socialMedia/index';
 import FACEBOOK_LOGO from '../assets/facebook.svg';
 import INSTAGRAM_LOGO from '../assets/instagram.svg';
 import TWITTER_LOGO from '../assets/twitter.svg';
-
 
 function Footer() {
     return (
@@ -28,9 +27,9 @@ function Footer() {
                     <p className={styles.pFooterStyle}>Terms & Privacy</p>
                 </div>
                 <div className = {styles.midiaSocial}>
-                    <ButtonSocial midiaLogo = {FACEBOOK_LOGO}/>
-                    <ButtonSocial midiaLogo = {TWITTER_LOGO}/>
-                    <ButtonSocial midiaLogo = {INSTAGRAM_LOGO} />
+                    <ButtonSocial alt='Facebook social media' midiaLogo = {FACEBOOK_LOGO}/>
+                    <ButtonSocial alt='Twitter social media' midiaLogo = {TWITTER_LOGO}/>
+                    <ButtonSocial alt='Instagram social media' midiaLogo = {INSTAGRAM_LOGO} />
                 </div>
             </div>
             <hr className={styles.separationSection}/>

@@ -36,18 +36,9 @@ npm start
 
 ### `🛠 Technogies`
 
-<<<<<<< HEAD
 - [React]
 - [ReactHooks]
 - [Html]
 - [Css]
 - [Javascript]
 - [NPM]
-=======
-- [React] 
-- [ReactHokks] 
-- [Html] 
-- [Css] 
-- [Javascript] 
-- [NPM]
->>>>>>> e25839ce4a088a506677908ad193ddaf550d7953

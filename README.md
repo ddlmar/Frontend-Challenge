@@ -37,7 +37,7 @@ npm start
 ### `🛠 Technogies`
 
 - [React] 
-- [ReactHokks] 
+- [ReactHooks] 
 - [Html] 
 - [Css] 
 - [Javascript] 
